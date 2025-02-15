@@ -1,10 +1,7 @@
-# this is just example
+# 3. Write a Python program that takes a list of fruits as input and prints each fruit along with its index using enumeration.
 
-a = ["Geeks", "for", "Geeks"]
+fruits = ['apple','banana','mango','grapes','litchi']
 
-# Iterating list using enumerate to get both index and element
-for i, name in enumerate(a):
-    print(f"Index {i}: {name}")
+for index, fruit in enumerate(fruits):
+    print(f"Index {index}: {fruit}")
 
-# Converting to a list of tuples
-print(list(enumerate(a)))
