@@ -6,4 +6,4 @@ def multiply(a,b):
     else:
         return a*b
     
-print(multiply('sirifiri','sudeep'))
+print(multiply('Sudip','Neupane'))
